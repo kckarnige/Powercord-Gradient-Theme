@@ -1,0 +1,412 @@
+/* ==Addons== */
+@import url('https://snappercord.github.io/Settings-Icons/settingsicons.css');
+@import url("https://curvu.github.io/Simplicity/src/source/theme/better-topbar.css");
+@import url("https://curvu.github.io/Simplicity/src/addons/better-powercord-settings.css");
+@import url('https://raw.githack.com/LuckFire/Nicer-User-Connections/main/src/NicerUserConections.user.css');
+@import url('https://tomrdh.github.io/discord-addons/xcores/themes/RNT_Core.css');
+@import url('https://raw.githack.com/LuckFire/RevampedUserArea/main/src/support/RevampedUserArea.theme.css');
+@import url('https://raw.githack.com/LuckFire/BetterChannelIndicators/main/src/support/BetterChannelIndiactors.theme.css');
+@import url("https://discordstyles.github.io/RadialStatus/base.css");
+
+/* ==Wordmark Font== */
+@import url("https://kckarnige.github.io/css/powercord-theme.css");
+
+.theme-dark,
+:root {
+    /* ==Main CSS=== */
+    --background-primary: linear-gradient(109.6deg, rgba(5, 84, 94, 1) 16%, #bbb 91.1%) !important;
+    /* ^This is the background gradient^ */
+    --channeltextarea-background: #36393f42;
+    --background-secondary: #36393f42;
+    --background-tertiary: #36393fa3;
+    --scrollbar-auto-track: #36393f7a;
+    --scrollbar-auto-thumb: #23272a8f;
+    --scrollbar-thin-thumb: #23272a8f;
+    --interactive-normal: #7d7d7d;
+    --text-link: #86eee5;
+    --text-normal: #ffffff;
+    --channels-default: #ffffff;
+    --elevation-low: 0;
+    --folder-color: #23272a69;
+
+    /* ==Channel Indicators== */
+    --unread-badge: rgba(255, 255, 255, 0.6);
+    --unread-bg: rgba(255, 255, 255, 0.01);
+    --selected-badge: #86eee5;
+    --selected-bg: #86eee536;
+    --selected-bg-hover: #86eee54a;
+    --hovered-bg: #86eee51f;
+    --bg-rounding: 0 50px 50px 0;
+    --border-info: 2px solid;
+    --ping-color: #84e3db;
+
+    /* ==Radial Status Colors== */
+    --rs-small-spacing: 2px;  /* spacing between avatar and status */
+    --rs-large-spacing: 3px;  /* spacing between avatar and status for user popouts & modals/profiles | MUST end in px */
+    --rs-width: 2px;  /* Width/thickness of status border */
+    --rs-avatar-shape: 50%;  /* 50% for round - 0% for square */
+    --rs-online-color: #84e3db;  /* color for online status */
+    --rs-idle-color: #faa61a;  /* color for idle status */
+    --rs-dnd-color: #f04747;  /* color for dnd status */
+    --rs-offline-color: #636b75;  /* color for offline status */
+    --rs-streaming-color: #643da7;  /* color for streaming status */
+    --rs-invisible-color: #747f8d;  /* color for invisible status - Note this will only show for your own invisibility */
+}
+
+#app-mount #status-picker::before {
+    display: none;
+}
+
+#app-mount .panels-j1Uci_ .container-3baos1 .flex-1xMQg5:not(.spotify-buttons) {
+    backdrop-filter: blur(5px) !important;
+    background: #23272a69 !important;
+}
+
+#app-mount .panels-j1Uci_ .container-3baos1 .flex-1xMQg5:not(.spotify-buttons)::before {
+    display: none;
+}
+
+#app-mount .panels-j1Uci_ .container-3baos1 .nameTag-3uD-yy {
+    backdrop-filter: blur(5px) !important;
+    background: #23272a69 !important;
+}
+
+::selection {
+    background-color: #84e3db9e !important;
+    color: #fff !important;
+}
+
+.wrapper-1Rf91z {
+    background: #2022256b !important;
+}
+
+.scroller-2TZvBN {
+    background: transparent !important;
+}
+
+#app-mount .container-3baos1 .avatarWrapper-2yR4wp {
+    background: transparent !important;
+}
+.container-1r6BKw.themed-ANHk51 {
+    background: #36393f73 !important;
+}
+
+.chat-3bRxxu,
+.threadSidebar-1o3BTy {
+    background: var(--background-primary) !important;
+    background-size: cover !important;
+}
+
+.theme-dark .uploadModal-2ifh8j,
+.theme-dark .root-1gCeng {
+    background: #36393fa3 !important;
+    backdrop-filter: blur(5px) !important;
+}
+
+.theme-dark .footer-3mqk7D,
+.theme-dark .footer-2gL1pp {
+    background: #86eee5a3 !important;
+    backdrop-filter: blur(5px) !important;
+}
+
+.attachment-33OFj0 {
+    background: #23272aa3 !important;
+    border-color: #23272aa3 !important;
+}
+
+.content-1o0f9g {
+    background: #36393fa3 !important;
+    color: #ffffff !important;
+}
+
+.divider-JfaTT5 {
+    border-top: thin solid #36393fa3 !important;
+}
+
+.searchBar-6Kv8R2 .searchBarComponent-32dTOx {
+    background: #202225 !important;
+}
+
+.cozy-3raOZG .timestamp-3ZCmNB,
+.username-1A8OIy {
+    color: #eaeaea !important;
+}
+
+.messageGroupWrapper-o-Zw7G {
+    background: var(--background-secondary) !important;
+    border: 1px solid var(--background-secondary) !important;
+}
+
+.embedFull-2tM8--,
+.background-1QDuV2,
+.item-26Dhrx {
+    background: #36393fa3 !important;
+}
+
+.wrapper-3WhCwL {
+    color: #86eee5 !important;
+    background: #86eee569 !important;
+}
+
+.interactive:hover {
+    color: #fff !important;
+    background-color: #86eee569 !important;
+}
+
+.theme-dark .spoilerText-3p6IlD.hidden-HHr2R9 {
+    background-color: #171717 !important;
+    color: #ffffff !important;
+}
+
+.emptyCard-1RJw8n {
+    background: transparent !important;
+}
+
+html.theme-light .scrollableContainer-2NUZem::before {
+    content: " This theme is specifically for dark mode. Switch to back to dark mode, or uninstall.                 ";
+    font-family: Whitney, Helvetica Neue, Helvetica, Arial, sans-serif;
+    color: #fff;
+    font-weight: bold;
+    padding: 5px;
+    border-radius: 6px;
+    background-color: #17171740;
+    text-align: center;
+    position: fixed;
+    z-index: 10001;
+    transform: translate(5%, 35%);
+}
+
+.scrollableContainer-2NUZem {
+    backdrop-filter: blur(5px) !important;
+}
+
+.tipTitle-GL9qAt {
+    color: var(--text-link) !important;
+    transform: translate(0%, -10%) !important;
+}
+
+.container-16j22k {
+    background: var(--background-primary) !important;
+}
+
+.content-1-zrf2 {
+    background-color: #17171740 !important;
+    padding: 12px !important;
+    border-radius: 25px !important;
+}
+
+.problems-3mgf6w {
+    background-color: #17171740;
+    padding: 12px !important;
+}
+.ready-36e6Vk {
+    background-color: #17171740;
+    border-radius: 25px !important;
+    padding: 5px !important;
+    transform: translate(0%, 4%) !important;
+}
+
+.tip-2cgoli {
+    transform: translate(0%, 35%) !important;
+}
+
+.lookFilled-1Gx00P.colorBrand-3pXr91 {
+    color: #ffffff !important;
+    background: #84e3db !important;
+}
+
+.lookFilled-1Gx00P.colorBrand-3pXr91:hover {
+    color: #000000 !important;
+    background: #86eee5 !important;
+}
+
+.nowPlayingColumn-2sl4cE {
+    background: #23272a69 !important;
+}
+
+.app-2rEoOp {
+    background: var(--background-primary) !important;
+}
+
+.theme-dark .container-1D34oG {
+    background: #36393f42 !important;
+}
+
+.themed-OHr7kt .item-PXvHYJ,
+.theme-dark .keybind-KpFkfr {
+    color: var(--text-normal) !important;
+}
+
+.theme-dark .closeButton-1tv5uR {
+    border-color: #ffffffa3 !important;
+}
+
+.theme-dark .message-2qRu38 {
+    background-color: transparent !important;
+    box-shadow: none !important;
+}
+
+.wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9,
+.wrapper-1BJsBx:hover .childWrapper-anI2G9 {
+    background-color: #84e3db !important;
+    color: #2f2f2f !important;
+}
+
+.childWrapper-anI2G9 {
+    color: #84e3db !important;
+}
+
+.item-2hkk8m {
+    background-color: #84e3db !important;
+}
+
+.newMessagesBar-265mhP {
+    background-color: #84e3db !important;
+}
+
+.label-22pbtT,
+.colorDefault-2K3EoJ {
+    color: #fff !important;
+}
+
+.menu-3sdvDG {
+    backdrop-filter: blur(5px) !important;
+    background: #23272a69 !important;
+}
+
+.icon-LYJorE {
+    color: #fff !important;
+}
+
+.colorDefault-2K3EoJ.focused-3afm-j {
+    background-color: #84e3db !important;
+    transition: 0.2s !important;
+}
+
+.reactionCount-2mvXRV {
+    color: var(--text-normal) !important;
+}
+
+.mention-1f5kbO {
+    background-color: #84e3db !important;
+    opacity: 1 !important;
+    color: #fff !important;
+    transition: 0.2s !important;
+}
+
+.mention-1f5kbO:hover {
+    background-color: #84e3db !important;
+    color: #2f2f2f !important;
+    transition: 0.2s !important;
+    opacity: 1 !important;
+}
+
+.botTagRegular-2HEhHi {
+    background-color: #84e3db !important;
+    color: #fff !important;
+}
+
+.numberBadge-2s8kKX {
+    background-color: var(--ping-color) !important;
+}
+
+.expandedFolderBackground-2sPsd- {
+    background: #84e3db27 !important;
+}
+
+.expandedFolderIconWrapper-1xLaU- {
+    background-color: #84e3db77 !important;
+}
+
+.jumpToPresentBar-G1R9s6 {
+    background-color: #84e3db !important;
+}
+
+.navButton-2gQCx- {
+    border-radius: 4px;
+    color: #fff !important;
+}
+
+.navButtonActive-1MkytQ {
+    background-color: #84e3db !important;
+    color: #fff !important;
+}
+
+.inspector-S2gM3e {
+    background-color: #84e3db !important;
+}
+
+.titleSecondary-3Dh_RZ {
+    color: var(--text-normal) !important;
+}
+
+.contentWrapper-SvZHNd {
+    backdrop-filter: blur(5px) !important;
+}
+
+.toolbar-1t6TWx {
+    background-color: #2f2f2fa3;
+    border-radius: 25px;
+    padding: 6px;
+}
+
+.searchBar-3dMhjb {
+    background-color: #202225;
+}
+
+.circleIconButton-jET_ig {
+    color: #84e3db;
+    background: transparent;
+}
+
+.circleIconButton-jET_ig.selected-ugP_am {
+    color: #2f2f2f;
+    background: #84e3db;
+}
+
+.edited-3sfAzf {
+    color: #84e3db;
+}
+
+/* ==Wordmark== */
+
+.wordmark-2iDDfm svg {
+    width: 0px;
+}
+
+.wordmark-2iDDfm::before {
+    position: absolute;
+    font-family: "Discord";
+    content: " ";
+    top: 3px;
+    font-size: 15px;
+    font-weight: 700;
+    color: #23272a;
+    height: 19px;
+    width: 4px;
+    background: #84e3db;
+
+    transform: translate(-285%,-20%);
+    line-height: 20px;
+}
+
+.wordmark-2iDDfm::after {
+    position: absolute;
+    font-family: "Discord";
+    content: " Discord | Gradient Theme";
+    top: 3px;
+    font-size: 15px;
+    font-weight: 700;
+    color: #e4e4e4;
+    height: 19px;
+    width: 235px;
+    background: #86eee54a;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    transform: translate(-4%,-20%);
+    line-height: 20px;
+}
+
+.titleBar-AC4pGV {
+    background-color: #23272a;
+}
