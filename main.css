@@ -368,6 +368,10 @@ html.theme-light .scrollableContainer-2NUZem::before {
     color: #84e3db;
 }
 
+.messagesPopoutWrap-1MQ1bW {
+    backdrop-filter: blur(5px) !important;
+}
+
 /* ==Wordmark== */
 
 .wordmark-2iDDfm svg {
