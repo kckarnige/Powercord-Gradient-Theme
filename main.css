@@ -2,7 +2,7 @@
 @import url('https://snappercord.github.io/Settings-Icons/settingsicons.css');
 @import url("https://curvu.github.io/Simplicity/src/source/theme/better-topbar.css");
 @import url("https://curvu.github.io/Simplicity/src/addons/better-powercord-settings.css");
-@import url('https://raw.githack.com/LuckFire/Nicer-User-Connections/main/src/NicerUserConections.user.css');
+@import url('https://raw.githack.com/Discord-Theme-Addons/refined-user-connections/main/src/support/RefinedUserConections.theme.css');
 @import url('https://tomrdh.github.io/discord-addons/xcores/themes/RNT_Core.css');
 @import url('https://raw.githack.com/LuckFire/RevampedUserArea/main/src/support/RevampedUserArea.theme.css');
 @import url('https://raw.githack.com/LuckFire/BetterChannelIndicators/main/src/support/BetterChannelIndiactors.theme.css');
@@ -345,31 +345,45 @@ html.theme-light .scrollableContainer-2NUZem::before {
 }
 
 .toolbar-1t6TWx {
-    background-color: #2f2f2fa3;
+    background-color: #2f2f2fa3 !important;
     border-radius: 25px;
     padding: 6px;
 }
 
 .searchBar-3dMhjb {
-    background-color: #202225;
+    background-color: #202225 !important;
 }
 
 .circleIconButton-jET_ig {
-    color: #84e3db;
-    background: transparent;
+    color: #84e3db !important;
+    background: transparent !important;
 }
 
 .circleIconButton-jET_ig.selected-ugP_am {
-    color: #2f2f2f;
-    background: #84e3db;
+    color: #2f2f2f !important;
+    background: #84e3db !important;
 }
 
 .edited-3sfAzf {
-    color: #84e3db;
+    color: #84e3db !important;
 }
-
+    
 .messagesPopoutWrap-1MQ1bW {
     backdrop-filter: blur(5px) !important;
+}
+    
+.modal-3c3bKg {
+    backdrop-filter: blur(5px) !important;
+}
+
+button.colorGreen-29iAKY {
+    color: #fff !important;
+    background-color: #84e3db !important;
+}
+
+button.colorGreen-29iAKY:hover {
+    color: #2f2f2f !important;
+    background-color: #84e3db !important;
 }
 
 /* ==Wordmark== */
